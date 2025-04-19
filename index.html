@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme = 'light'>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles/index.css">
 </head>
-<body class="h-[1000px] bg-[#FFFFFF]"> 
+<body class="h-[1000px] "> 
     <header class="pt-10">
         <section class="flex justify-between items-center h-20 mx-10 border-2 rounded-xl border-slate-500 px-2 bg-[#1090D81A]">
             <div>
@@ -21,8 +21,144 @@
         </section>
     </header>
 
-    <body>
-        
-    </body>
+    <main>
+        <section class="flex flex-col md:flex-row lg:flex-row gap-4 px-1 md:mx-10 lg:mx-10 mt-16 pb-5">
+            <!-- Calculation section -->
+
+            <div class="flex-1 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-y-5 ">
+                 <!-- triangle -->
+                <div class="bg-base-100 w-96 shadow-xl rounded-lg pt-5 bg-[#FFFFFF] border-[#1111111A] border-2">
+                    <figure class="flex justify-center">
+                    <img
+                        src="images/triangle.png"
+                        alt="triangle">
+                    </figure>
+                    <div class="flex flex-col justify-center items-center">
+                    <h2 class="text-[#414141] text-2xl inter-bold mt-2">Triangle</h2>             
+                    <p class="text-[#414141] mt-2">Area (A) = 0.5 * b * h </p>
+                    <div class="mt-2">
+                        <input class="w-24  text-center rounded-lg text-[#414141] bg-[#F1F1F1] " type="text" name="" id="" placeholder="b">
+                        <span class="text-[#414141]">Cm</span>
+                        <input class="w-24 text-center rounded-lg text-[#414141] bg-[#F1F1F1]" type="text" name="" id="" placeholder="b">
+                        <span class="text-[#414141]">Cm</span>
+                    </div>
+                    <div class="justify-center mt-2 mb-5">
+                        <button class="btn btn-primary inter-bold">Calculate</button>
+                    </div>
+                    </div>
+                </div>
+                 <!-- Rectangle -->
+                <div class="bg-base-100 w-96 shadow-xl rounded-lg pt-5 bg-[#FFFFFF] border-[#1111111A] border-2">
+                    <figure class="flex justify-center">
+                    <img
+                        src="images/rectangle.png"
+                        alt="triangle">
+                    </figure>
+                    <div class="flex flex-col justify-center items-center">
+                    <h2 class="text-[#414141] text-2xl inter-bold mt-2">Rectangle</h2>             
+                    <p class="text-[#414141] mt-2">Area (A) = 0.5 * b * h </p>
+                    <div class="mt-2">
+                        <input class="w-24  text-center rounded-lg text-[#414141] bg-[#F1F1F1] " type="text" name="" id="" placeholder="b">
+                        <span class="text-[#414141]">Cm</span>
+                        <input class="w-24 text-center rounded-lg text-[#414141] bg-[#F1F1F1]" type="text" name="" id="" placeholder="b">
+                        <span class="text-[#414141]">Cm</span>
+                    </div>
+                    <div class="justify-center mt-2 mb-5">
+                        <button class="btn btn-primary inter-bold">Calculate</button>
+                    </div>
+                    </div>
+                </div>
+                 <!-- Parallelogram -->
+                <div class="bg-base-100 w-96 shadow-xl rounded-lg pt-5 bg-[#FFFFFF] border-[#1111111A] border-2">
+                    <figure class="flex justify-center">
+                    <img
+                        src="images/parallelogram.png"
+                        alt="triangle">
+                    </figure>
+                    <div class="flex flex-col justify-center items-center">
+                    <h2 class="text-[#414141] text-2xl inter-bold mt-2">Parallelogram</h2>             
+                    <p class="text-[#414141] mt-2">Area (A) = 0.5 * b * h </p>
+                    <div class="mt-2">
+                        <input class="w-24  text-center rounded-lg text-[#414141] bg-[#F1F1F1] " type="text" name="" id="" placeholder="b">
+                        <span class="text-[#414141]">Cm</span>
+                        <input class="w-24 text-center rounded-lg text-[#414141] bg-[#F1F1F1]" type="text" name="" id="" placeholder="b">
+                        <span class="text-[#414141]">Cm</span>
+                    </div>
+                    <div class="justify-center mt-2 mb-5">
+                        <button class="btn btn-primary inter-bold">Calculate</button>
+                    </div>
+                    </div>
+                </div>
+                 <!-- Rhombus -->
+                <div class="bg-base-100 w-96 shadow-xl rounded-lg pt-5 bg-[#FFFFFF] border-[#1111111A] border-2">
+                    <figure class="flex justify-center">
+                    <img
+                        src="images/rhombus.png"
+                        alt="triangle">
+                    </figure>
+                    <div class="flex flex-col justify-center items-center">
+                    <h2 class="text-[#414141] text-2xl inter-bold mt-2">Rhombus</h2>             
+                    <p class="text-[#414141] mt-2">Area (A) = 0.5 * b * h </p>
+                    <div class="mt-2">
+                        <input class="w-24  text-center rounded-lg text-[#414141] bg-[#F1F1F1] " type="text" name="" id="" placeholder="b">
+                        <span class="text-[#414141]">Cm</span>
+                        <input class="w-24 text-center rounded-lg text-[#414141] bg-[#F1F1F1]" type="text" name="" id="" placeholder="b">
+                        <span class="text-[#414141]">Cm</span>
+                    </div>
+                    <div class="justify-center mt-2 mb-5">
+                        <button class="btn btn-primary inter-bold">Calculate</button>
+                    </div>
+                    </div>
+                </div>
+                 <!-- Pentagon -->
+                <div class="bg-base-100 w-96 shadow-xl rounded-lg pt-5 bg-[#FFFFFF] border-[#1111111A] border-2">
+                    <figure class="flex justify-center">
+                    <img
+                        src="images/pentagon.png"
+                        alt="triangle">
+                    </figure>
+                    <div class="flex flex-col justify-center items-center">
+                    <h2 class="text-[#414141] text-2xl inter-bold mt-2">Pentagon</h2>             
+                    <p class="text-[#414141] mt-2">Area (A) = 0.5 * b * h </p>
+                    <div class="mt-2">
+                        <input class="w-24  text-center rounded-lg text-[#414141] bg-[#F1F1F1] " type="text" name="" id="" placeholder="b">
+                        <span class="text-[#414141]">Cm</span>
+                        <input class="w-24 text-center rounded-lg text-[#414141] bg-[#F1F1F1]" type="text" name="" id="" placeholder="b">
+                        <span class="text-[#414141]">Cm</span>
+                    </div>
+                    <div class="justify-center mt-2 mb-5">
+                        <button class="btn btn-primary inter-bold">Calculate</button>
+                    </div>
+                    </div>
+                </div>
+                 <!-- Ellipse -->
+                <div class="bg-base-100 w-96 shadow-xl rounded-lg pt-5 bg-[#FFFFFF] border-[#1111111A] border-2">
+                    <figure class="flex justify-center">
+                    <img
+                        src="images/ellipse.png"
+                        alt="triangle">
+                    </figure>
+                    <div class="flex flex-col justify-center items-center">
+                    <h2 class="text-[#414141] text-2xl inter-bold mt-2">Ellipse</h2>             
+                    <p class="text-[#414141] mt-2">Area (A) = 0.5 * b * h </p>
+                    <div class="mt-2">
+                        <input class="w-24  text-center rounded-lg text-[#414141] bg-[#F1F1F1] " type="text" name="" id="" placeholder="b">
+                        <span class="text-[#414141]">Cm</span>
+                        <input class="w-24 text-center rounded-lg text-[#414141] bg-[#F1F1F1]" type="text" name="" id="" placeholder="b">
+                        <span class="text-[#414141]">Cm</span>
+                    </div>
+                    <div class="justify-center mt-2 mb-5">
+                        <button class="btn btn-primary inter-bold">Calculate</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Calculation section -->
+            <div class=" flex justify-center text-3xl w-96 md:w-80 lg:w-96 h-96 border-2 border-[#1111111A] rounded-xl ">
+                <p class="text-[#111111CC] inter-bold">Area Calculation</p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
