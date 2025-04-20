@@ -37,13 +37,13 @@
                     <h2 class="text-[#414141] text-2xl inter-bold mt-2">Triangle</h2>             
                     <p class="text-[#414141] mt-2">Area (A) = 0.5 * b * h </p>
                     <div class="mt-2">
-                        <input class="w-24  text-center rounded-lg text-[#414141] bg-[#F1F1F1] " type="text" name="" id="" placeholder="b">
+                        <input class="w-24  text-center rounded-lg text-[#414141] bg-[#F1F1F1] " type="text" name="" id="triangleFirstInput" placeholder="b">
                         <span class="text-[#414141]">Cm</span>
-                        <input class="w-24 text-center rounded-lg text-[#414141] bg-[#F1F1F1]" type="text" name="" id="" placeholder="b">
+                        <input class="w-24 text-center rounded-lg text-[#414141] bg-[#F1F1F1]" type="text" name="" id="triangleSecondInput" placeholder="b">
                         <span class="text-[#414141]">Cm</span>
                     </div>
                     <div class="justify-center mt-2 mb-5">
-                        <button class="btn btn-primary inter-bold">Calculate</button>
+                        <button id="triangleCalculate" class="btn btn-primary inter-bold">Calculate</button>
                     </div>
                     </div>
                 </div>
@@ -155,10 +155,15 @@
             </div>
 
             <!-- Calculation section -->
-            <div class=" flex justify-center text-3xl w-96 md:w-80 lg:w-96 h-96 border-2 border-[#1111111A] rounded-xl ">
-                <p class="text-[#111111CC] inter-bold">Area Calculation</p>
+            <div class="w-96 md:w-80 lg:w-96 h-96 border-2 border-[#1111111A] rounded-xl">
+                <p class="flex justify-center text-[#111111CC] inter-bold text-3xl">Area Calculation</p>
+                <div>
+                    <p>Triangle Calculation : <span id="triangleCalculation"></span> cm <sup>2</sup></p>
+                </div>
             </div>
         </section>
     </main>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/utility.js"></script>
 </body>
 </html>
