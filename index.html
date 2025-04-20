@@ -56,15 +56,15 @@
                     </figure>
                     <div class="flex flex-col justify-center items-center">
                     <h2 class="text-[#414141] text-2xl inter-bold mt-2">Rectangle</h2>             
-                    <p class="text-[#414141] mt-2">Area (A) = 0.5 * b * h </p>
+                    <p class="text-[#414141] mt-2">Area (A) = w * l </p>
                     <div class="mt-2">
-                        <input class="w-24  text-center rounded-lg text-[#414141] bg-[#F1F1F1] " type="text" name="" id="" placeholder="b">
+                        <input class="w-24  text-center rounded-lg text-[#414141] bg-[#F1F1F1] " type="text" name="" id="rectangleFirstInput" placeholder="w">
                         <span class="text-[#414141]">Cm</span>
-                        <input class="w-24 text-center rounded-lg text-[#414141] bg-[#F1F1F1]" type="text" name="" id="" placeholder="b">
+                        <input class="w-24 text-center rounded-lg text-[#414141] bg-[#F1F1F1]" type="text" name="" id="rectangleSecondInput" placeholder="l">
                         <span class="text-[#414141]">Cm</span>
                     </div>
                     <div class="justify-center mt-2 mb-5">
-                        <button class="btn btn-primary inter-bold">Calculate</button>
+                        <button id="rectangleCalculate" class="btn btn-primary inter-bold">Calculate</button>
                     </div>
                     </div>
                 </div>
@@ -77,15 +77,15 @@
                     </figure>
                     <div class="flex flex-col justify-center items-center">
                     <h2 class="text-[#414141] text-2xl inter-bold mt-2">Parallelogram</h2>             
-                    <p class="text-[#414141] mt-2">Area (A) = 0.5 * b * h </p>
+                    <p class="text-[#414141] mt-2">Area (A) = b * h </p>
                     <div class="mt-2">
-                        <input class="w-24  text-center rounded-lg text-[#414141] bg-[#F1F1F1] " type="text" name="" id="" placeholder="b">
+                        <input class="w-24  text-center rounded-lg text-[#414141] bg-[#F1F1F1] " type="text" name="" id="parallelogramFirstInput" placeholder="b">
                         <span class="text-[#414141]">Cm</span>
-                        <input class="w-24 text-center rounded-lg text-[#414141] bg-[#F1F1F1]" type="text" name="" id="" placeholder="b">
+                        <input class="w-24 text-center rounded-lg text-[#414141] bg-[#F1F1F1]" type="text" name="" id="parallelogramSecondInput" placeholder="h">
                         <span class="text-[#414141]">Cm</span>
                     </div>
                     <div class="justify-center mt-2 mb-5">
-                        <button class="btn btn-primary inter-bold">Calculate</button>
+                        <button id="parallelogramCalculate" class="btn btn-primary inter-bold">Calculate</button>
                     </div>
                     </div>
                 </div>
@@ -98,15 +98,15 @@
                     </figure>
                     <div class="flex flex-col justify-center items-center">
                     <h2 class="text-[#414141] text-2xl inter-bold mt-2">Rhombus</h2>             
-                    <p class="text-[#414141] mt-2">Area (A) = 0.5 * b * h </p>
+                    <p class="text-[#414141] mt-2">Area (A) = 0.5 * d <sub>1</sub> * d <sub>2</sub> </p>
                     <div class="mt-2">
-                        <input class="w-24  text-center rounded-lg text-[#414141] bg-[#F1F1F1] " type="text" name="" id="" placeholder="b">
+                        <input class="w-24  text-center rounded-lg text-[#414141] bg-[#F1F1F1] " type="text" name="" id="rhombusFirstInput" placeholder="d1">
                         <span class="text-[#414141]">Cm</span>
-                        <input class="w-24 text-center rounded-lg text-[#414141] bg-[#F1F1F1]" type="text" name="" id="" placeholder="b">
+                        <input class="w-24 text-center rounded-lg text-[#414141] bg-[#F1F1F1]" type="text" name="" id="rhombusSecondInput" placeholder="d2">
                         <span class="text-[#414141]">Cm</span>
                     </div>
                     <div class="justify-center mt-2 mb-5">
-                        <button class="btn btn-primary inter-bold">Calculate</button>
+                        <button id="rhombusCalculate" class="btn btn-primary inter-bold">Calculate</button>
                     </div>
                     </div>
                 </div>
@@ -119,15 +119,15 @@
                     </figure>
                     <div class="flex flex-col justify-center items-center">
                     <h2 class="text-[#414141] text-2xl inter-bold mt-2">Pentagon</h2>             
-                    <p class="text-[#414141] mt-2">Area (A) = 0.5 * b * h </p>
+                    <p class="text-[#414141] mt-2">Area (A) = 0.5 * p * b </p>
                     <div class="mt-2">
-                        <input class="w-24  text-center rounded-lg text-[#414141] bg-[#F1F1F1] " type="text" name="" id="" placeholder="b">
+                        <input class="w-24  text-center rounded-lg text-[#414141] bg-[#F1F1F1] " type="text" name="" id="pentagonFirstInput" placeholder="p">
                         <span class="text-[#414141]">Cm</span>
-                        <input class="w-24 text-center rounded-lg text-[#414141] bg-[#F1F1F1]" type="text" name="" id="" placeholder="b">
+                        <input class="w-24 text-center rounded-lg text-[#414141] bg-[#F1F1F1]" type="text" name="" id="pentagonSecondInput" placeholder="b">
                         <span class="text-[#414141]">Cm</span>
                     </div>
                     <div class="justify-center mt-2 mb-5">
-                        <button class="btn btn-primary inter-bold">Calculate</button>
+                        <button id="pentagonCalculate" class="btn btn-primary inter-bold">Calculate</button>
                     </div>
                     </div>
                 </div>
@@ -140,15 +140,15 @@
                     </figure>
                     <div class="flex flex-col justify-center items-center">
                     <h2 class="text-[#414141] text-2xl inter-bold mt-2">Ellipse</h2>             
-                    <p class="text-[#414141] mt-2">Area (A) = 0.5 * b * h </p>
+                    <p class="text-[#414141] mt-2">Area (A) = 3.1416 * a * b </p>
                     <div class="mt-2">
-                        <input class="w-24  text-center rounded-lg text-[#414141] bg-[#F1F1F1] " type="text" name="" id="" placeholder="b">
+                        <input class="w-24  text-center rounded-lg text-[#414141] bg-[#F1F1F1] " type="text" name="" id="ellipseFirstInput" placeholder="a">
                         <span class="text-[#414141]">Cm</span>
-                        <input class="w-24 text-center rounded-lg text-[#414141] bg-[#F1F1F1]" type="text" name="" id="" placeholder="b">
+                        <input class="w-24 text-center rounded-lg text-[#414141] bg-[#F1F1F1]" type="text" name="" id="ellipseSecondInput" placeholder="b">
                         <span class="text-[#414141]">Cm</span>
                     </div>
                     <div class="justify-center mt-2 mb-5">
-                        <button class="btn btn-primary inter-bold">Calculate</button>
+                        <button id="ellipseCalculate" class="btn btn-primary inter-bold">Calculate</button>
                     </div>
                     </div>
                 </div>
@@ -157,8 +157,13 @@
             <!-- Calculation section -->
             <div class="w-96 md:w-80 lg:w-96 h-96 border-2 border-[#1111111A] rounded-xl">
                 <p class="flex justify-center text-[#111111CC] inter-bold text-3xl">Area Calculation</p>
-                <div>
+                <div class="pl-5 pt-5 text-xl">
                     <p>Triangle Calculation : <span id="triangleCalculation"></span> cm <sup>2</sup></p>
+                    <p>Rectangle Calculation : <span id="rectangleCalculation"></span> cm <sup>2</sup></p>
+                    <p>Parallelogram Calculation : <span id="parallelogramCalculation"></span> cm <sup>2</sup></p>
+                    <p>Rhombus Calculation : <span id="rhombusCalculation"></span> cm <sup>2</sup></p>
+                    <p>Pentagon Calculation : <span id="pentagonCalculation"></span> cm <sup>2</sup></p>
+                    <p>Ellipse Calculation : <span id="ellipseCalculation"></span> cm <sup>2</sup></p>
                 </div>
             </div>
         </section>
