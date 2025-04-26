@@ -37,6 +37,13 @@ document.getElementById('pentagonCalculate').addEventListener('click', function(
     let result = 0.5* firstField * secondField;
     setInnerText('pentagonCalculation',result);
 })
+// document.getElementById('ellipseCalculate').addEventListener('click', function(){
+//     let firstField = firstInput('ellipseFirstInput');
+//     let secondField = secondInput('ellipseSecondInput')
+    
+//     let result = 3.1416 * firstField * secondField;
+//     setInnerText('ellipseCalculation',result);
+// })
 document.getElementById('ellipseCalculate').addEventListener('click', function(){
     let firstField = firstInput('ellipseFirstInput');
     let secondField = secondInput('ellipseSecondInput')
